@@ -12,7 +12,6 @@ const Home = () => {
             <AboutMySelf />   
             <ClientSection />   
             <Experience /> 
-            <Footer />    
         </div>
     );
 };
