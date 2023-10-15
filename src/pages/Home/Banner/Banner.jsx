@@ -1,11 +1,17 @@
+import { useTypewriter } from "react-simple-typewriter";
+
 const Banner = () => {
+   const [text1] = useTypewriter({
+    words: [" \" Quality Digital Marketing Service  You Really Want!\""],
+    loop: 30,
+  });
   return (
     <div className="">
       <div className=" h-[700px] bg-gradient-to-r from-cyan-600 to-blue-600 text-center pt-48">
-        <h1 className="text-5xl font-bold text-gray-200">
-          Quality Digital Marketing Service <br /> You Really Want!
+        <h1 className="text-6xl font-bold text-gray-200 w-3/5 mx-auto">
+          {text1}
         </h1>
-        <p className="text-lg font-bold text-gray-200 mt-10">
+        <p className="text-2xl font-bold text-gray-200 mt-10">
           See exactly what we’d do, how much we’d change, and why your <br />{" "}
           competitors are in deep trouble
         </p>
@@ -17,8 +23,7 @@ const Banner = () => {
       </div>
       <div>
         <h1 className="text-4xl text-center font-bold mt-5">
-          &apos; The Marketing Hawk&apos;_Who loves to Play with Digital
-          Marketing
+        The Marketing Hawk&apos;_Who loves to Play with Digital Marketing
         </h1>
       </div>
     </div>

@@ -3,8 +3,17 @@ import MyImage from "../../../assets/AboutMySelf/AboutMy.png";
 import { useEffect } from "react";
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import { useTypewriter } from "react-simple-typewriter";
 
 const AboutMySelf = () => {
+  const [text1] = useTypewriter({
+    words: ["Marketing Team Leader\""],
+    loop: 30,
+  });
+  const [text2] = useTypewriter({
+    words: ["BUSINESS OWNERS JUST LIKE YOU\""],
+    loop: 30,
+  });
   useEffect(() => {
     Aos.init({
       duration: 1000, // animation duration
@@ -20,7 +29,7 @@ const AboutMySelf = () => {
           <div>
             <h1 className="text-4xl font-bold"> Jamir Hasan</h1>
             <h1 className="text-2xl font-bold text-gray-400 my-5">
-              Marketing Team Leader
+              <span>&quot;</span>{text1}
             </h1>
             <ul className="list-disc leading-loose">
               <li>HubSpot Certified Inbound Marketer</li>
@@ -59,7 +68,7 @@ const AboutMySelf = () => {
               project.
             </h3>
             <h1 className="text-xl font-bold mt-3">
-              WE HELP BUSINESS OWNERS JUST LIKE YOU
+              <span>WE HELP &quot;</span>{text2}
             </h1>
             <p className="mt-2 leading-relaxed">Every business is different, so why use one solution to solve all your problems? We create custom marketing solutions that are made just for you. We have worked with different niches and now we are using this knowledge to make every client get the best results. </p>
             <ul className="list-disc px-5 my-3">
