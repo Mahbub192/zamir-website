@@ -1,9 +1,10 @@
 import {
-    createBrowserRouter,
-  } from "react-router-dom";
+  createBrowserRouter,
+} from "react-router-dom";
 import MainLayout from "../layouts/MainLayout/MainLayout";
 import Home from "../pages/Home/Home/Home";
-import Portfolio from "../pages/Portfolio/Portfolio";
+import Portfolio from "../pages/Portfolio/GoogleSearchAd/Portfolio";
+import FacebookAdd from "../pages/Portfolio/FacebookAdd/FacebookAdd";
 
   const router = createBrowserRouter([
     {
@@ -16,7 +17,11 @@ import Portfolio from "../pages/Portfolio/Portfolio";
         },
         {
           path:'portfolio',
-          element: <Portfolio />
+          element: <Portfolio />,
+        },
+        {
+          path:'facebookAds',
+          element:<FacebookAdd />
         }
       ]
     },

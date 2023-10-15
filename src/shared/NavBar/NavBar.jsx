@@ -9,9 +9,16 @@ const NavBar = () => {
       <li>
         <NavLink to={`/portfolio`}>Portfolio</NavLink>
       </li>
-      <li>
-        <a>Certification</a>
+      <li tabIndex={0}>
+        <details>
+          <summary>Parent</summary>
+          <ul className="p-2">
+            <li><NavLink>Submenu 1</NavLink></li>
+            <li><a>Submenu 2</a></li>
+          </ul>
+        </details>
       </li>
+       
       <li>
         <a>Certification</a>
       </li>
