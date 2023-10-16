@@ -3,7 +3,7 @@ import facebookService from '../../../assets/FacebookAdd/facebookService.png'
 const FacebookAdd = () => {
     return (
         <div className="container mx-auto">
-            <h1>FACEBOOK PIXEL & CONVERSION API</h1>
+            <h1 className='text-3xl font-bold  text-center mb-10'>FACEBOOK PIXEL & CONVERSION API</h1>
             <div className='flex items-center w-5/6 mx-auto'>
                 <div className='w-1/2'>
                     <img className='mx-auto ' src={facebookAd} alt="" />
@@ -14,8 +14,8 @@ const FacebookAdd = () => {
                     <p className='leading-relaxed mt-3 text-justify'>I have a wealth of experience in creating and managing Google PPC (Pay-Per-Click) ad campaigns that deliver tangible results. Here&apos;s an overview of my expertise and an example of a successful Google PPC ad campaign:</p>
                 </div>
             </div>
-            <div>
-                <img src={facebookService} alt="" />
+            <div className='mt-10'>
+                <img className='mx-auto border-2 border-gray-300 p-3 bg-white shadow-2xl' src={facebookService} alt="" />
             </div>
         </div>
     );

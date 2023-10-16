@@ -6,15 +6,13 @@ const NavBar = () => {
       <li>
         <NavLink to={`/`}>Home</NavLink>
       </li>
-      <li>
-        <NavLink to={`/portfolio`}>Portfolio</NavLink>
-      </li>
+      
       <li tabIndex={0}>
         <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-            <li><NavLink>Submenu 1</NavLink></li>
-            <li><a>Submenu 2</a></li>
+          <summary>Portfolio</summary>
+          <ul className="p-2 w-48">
+            <li><NavLink to={`portfolio`}>Google Ads</NavLink></li>
+            <li><NavLink to={`facebookAds`}>Facebook Ads</NavLink></li>
           </ul>
         </details>
       </li>
@@ -35,7 +33,7 @@ const NavBar = () => {
         <a>Contact Us</a>
       </li>
       <li>
-        <a>About</a>
+        <NavLink to={`about`}>About</NavLink>
       </li>
       <li>
         <a>|</a>
