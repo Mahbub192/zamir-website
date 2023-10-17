@@ -4,8 +4,13 @@ import GoogleSearchAd from "./GoogleSearchAd";
 const Portfolio = () => {
     return (
         <div >
-            <h1 className="text-center mt-16 text-5xl font-bold mb-20">Portfolio</h1>
+            <div>
+            <h1 className="text-center text-5xl border-b-4  font-bold py-20 bg-gradient-to-r from-emerald-500 to-teal-600 text-white">Portfolio <br /><span className=""></span></h1>
+            
+            </div>
+            <div className="mt-20"> 
             <GoogleSearchAd />
+            </div>
         </div>
     );
 };

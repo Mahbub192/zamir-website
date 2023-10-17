@@ -1,66 +1,109 @@
-
-
 const FrequentlyAskedQuestions = () => {
-    return (
-        <>
-        <div className="collapse collapse-arrow border-2 mt-2">
-        <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-xl font-medium">
-        Options & Suggestions
-        </div>
-        <div className="collapse-content">
-          <p>
-          Develop innovative ideas and game-changing solutions for yourself.
-            With our help, overcome obstacles, realize your potential, and
-            accomplish your objectives!
-          </p>
-        </div>
-      </div>
+  return (
+    <>
       <div className="collapse collapse-arrow border-2 mt-2">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium">
-          Market Analysis
+          adipiscing without dignity, lorem ipsum dolor sit amet consectetur?
         </div>
         <div className="collapse-content">
           <p>
-            With the help of our thorough market analysis, stay one step ahead
-            of the competition. Learn about consumer trends, market trends, and
-            expansion prospects.
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit Massa, Nisl
+            Ligula Cursus Mattis Eleifend Ornare Vestibulum Sociis, Posuere
+            Tortor Donec Rutrum Turpis Pretium Volutpat।
           </p>
         </div>
       </div>
       <div className="collapse collapse-arrow border-2 mt-2">
         <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-xl font-medium">Innovation</div>
+        <div className="collapse-title text-xl font-medium">
+          I&apos;ll come throughout the years, right?
+        </div>
         <div className="collapse-content">
           <p>
-            We keep abreast of the most recent developments in trends and
-            technology to keep our clients one step ahead of the competition.
+            The client is highly significant since they will always come first.
+            Like the cushion of the lion, the land of the land, the grief, or
+            the corporal of the land.
           </p>
         </div>
       </div>
       <div className="collapse collapse-arrow border-2 mt-2">
         <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-xl font-medium">Customization</div>
+        <div className="collapse-title text-xl font-medium">
+          They won&apos;t emerge unless passion has blinded them, right?
+        </div>
         <div className="collapse-content">
           <p>
-            We approach each project we work on specifically because we
-            recognize that every business is different.
+            The customer is highly significant since they will always come
+            first. Like the cushion of the lion, the land of the land, the
+            mourning, or the corporal of the land.
           </p>
         </div>
       </div>
       <div className="collapse collapse-arrow border-2 mt-2">
         <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-xl font-medium">Teamwork</div>
+        <div className="collapse-title text-xl font-medium">
+          But do we only blame and appease them out of hatred?
+        </div>
         <div className="collapse-content">
           <p>
-            Every step of the way, we work directly with our customers to meet
-            their needs and accomplish their objectives.
+            The customer is highly significant since they will always come
+            first. Like the cushion of the lion, the land of the land, the
+            mourning, or the corporal of the land.
+          </p>
+        </div>
+      </div>
+      <div className="collapse collapse-arrow border-2 mt-2">
+        <input type="radio" name="my-accordion-2" />
+        <div className="collapse-title text-xl font-medium">
+        So a smart man is holding these things here, then?
+        </div>
+        <div className="collapse-content">
+          <p>
+          The customer is highly significant since they will always come first. Like the cushion of the lion, the land of the land, the mourning, or the corporal of the land.
+
+
+          </p>
+        </div>
+      </div>
+      <div className="collapse collapse-arrow border-2 mt-2">
+        <input type="radio" name="my-accordion-2" />
+        <div className="collapse-title text-xl font-medium">
+        During our leisure time, when we have any?
+        </div>
+        <div className="collapse-content">
+          <p>
+          The client is highly significant since they will always come first. Like the cushion of the lion, the land of the land, the grief, or the corporal of the land.
+
+          </p>
+        </div>
+      </div> <div className="collapse collapse-arrow border-2 mt-2">
+        <input type="radio" name="my-accordion-2" />
+        <div className="collapse-title text-xl font-medium">
+        So a smart man is holding these things here, then?
+        </div>
+        <div className="collapse-content">
+          <p>
+            The customer is highly significant since they will always come
+            first. Like the cushion of the lion, the land of the land, the
+            mourning, or the corporal of the land.
+          </p>
+        </div>
+      </div> <div className="collapse collapse-arrow border-2 mt-2">
+        <input type="radio" name="my-accordion-2" />
+        <div className="collapse-title text-xl font-medium">
+          But do we only blame and appease them out of hatred?
+        </div>
+        <div className="collapse-content">
+          <p>
+            The customer is highly significant since they will always come
+            first. Like the cushion of the lion, the land of the land, the
+            mourning, or the corporal of the land.
           </p>
         </div>
       </div>
     </>
-    );
+  );
 };
 
 export default FrequentlyAskedQuestions;
