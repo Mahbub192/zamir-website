@@ -2,6 +2,7 @@ import AboutMySelf from "../AboutMySelf/AboutMySelf";
 import Banner from "../Banner/Banner";
 import ClientSection from "../ClientSection/ClientSection";
 import Experience from "../Experience/Experience";
+import OurDigitalMarketing from "../OurDigitalMarketing/OurDigitalMarketing";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <div>
             <Banner /> 
             <AboutMySelf />   
+            <OurDigitalMarketing />
             <ClientSection />   
             <Experience /> 
         </div>
