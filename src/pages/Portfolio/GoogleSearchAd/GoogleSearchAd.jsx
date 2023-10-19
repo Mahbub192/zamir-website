@@ -2,7 +2,6 @@ import googleAllImage from "../../../assets/GoogleSearchAd/googleAllImage.png";
 import image11 from "../../../assets/GoogleSearchAd/image11.png";
 import FrequentlyAskedQuestions from "../../../../components/FrequentlyAskedQuestions/FrequentlyAskedQuestions";
 import adding from "/src/assets/GoogleSearchAd/adding.png";
-import quickly from "/src/assets/GoogleSearchAd/quickly.png";
 import MyImage from "../../../assets/AboutMySelf/AboutMy.png";
 import { useForm } from "react-hook-form";
 import { useEffect } from "react";
