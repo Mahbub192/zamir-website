@@ -1,15 +1,12 @@
-import { useTypewriter } from "react-simple-typewriter";
+
 
 const Banner = () => {
-   const [text1] = useTypewriter({
-    words: [" \" Quality Digital Marketing Service  You Really Want!\""],
-    loop: 30,
-  });
+   
   return (
     <div className="">
       <div className=" h-[700px] bg-gradient-to-r from-cyan-600 to-blue-600 text-center pt-48">
-        <h1 className="text-6xl font-bold text-gray-200 w-3/5 mx-auto">
-          {text1}
+        <h1 className="text-[70px] font-bold text-gray-200 w-3/5 mx-auto">
+        Quality Digital Marketing Service  <br />You Really Want!
         </h1>
         <p className="text-2xl font-bold text-gray-200 mt-10">
           See exactly what we’d do, how much we’d change, and why your <br />{" "}
