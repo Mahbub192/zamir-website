@@ -27,7 +27,7 @@ const OurDigitalMarketing = () => {
             </p>
           </div>
         </div>
-        <div className="w1/4">
+        <div className="w1/4 pt-20">
           <div className="flex gap-10">
             <img className="w-2/4 h-[400px] rounded-2xl" src={home3} alt="" />
             <div className="w-2/4  pt-5">

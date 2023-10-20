@@ -19,8 +19,8 @@ const Banner = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-4xl text-center font-bold mt-5">
-        The Marketing Hawk&apos;_Who loves to Play with Digital Marketing
+        <h1 className="text-4xl text-center font-bold mt-5 font-serif">
+        The &quot;Marketing Hawk&quot; Who loves to Play with Digital Marketing
         </h1>
       </div>
     </div>

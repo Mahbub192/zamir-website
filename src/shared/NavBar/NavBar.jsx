@@ -1,4 +1,4 @@
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const nav = (
@@ -6,34 +6,90 @@ const NavBar = () => {
       <li>
         <NavLink to={`/`}>Home</NavLink>
       </li>
-      
+      <li tabIndex={0}>
+        <details>
+          <summary>Service</summary>
+          <ul className="p-1 w-56">
+            <li>
+              <NavLink>Google Ads </NavLink>
+            </li>
+            <li>
+              <NavLink>Google PPC Service </NavLink>
+            </li>
+            <li>
+              <NavLink>Google Analytics </NavLink>
+            </li>
+            <li>
+              <NavLink>Meta Ads </NavLink>
+            </li>
+            <li>
+              <NavLink>Pixel & Conversion API</NavLink>
+            </li>
+            <li>
+              <NavLink>ServerSide Tracking</NavLink>
+            </li>
+          </ul>
+        </details>
+      </li>
+
       <li tabIndex={0}>
         <details>
           <summary>Portfolio</summary>
           <ul className="p-2 w-48">
-            <li><NavLink to={`portfolio`}>Google Ads</NavLink></li>
-            <li><NavLink to={`facebookAds`}>Facebook Ads</NavLink></li>
+            <li>
+              <NavLink to={`portfolio`}>Google Ads</NavLink>
+            </li>
+            <li>
+              <NavLink to={`facebookAds`}>Facebook Ads</NavLink>
+            </li>
           </ul>
         </details>
       </li>
-       
-      <li>
-        <a>Certification</a>
+      <li tabIndex={0}>
+        <details>
+          <summary>Testimonials</summary>
+          <ul className="p-1 w-56">
+            <li>
+              <NavLink>Video Testimonials</NavLink>
+            </li>
+            <li>
+              <NavLink>Text Testimonials</NavLink>
+            </li>
+          </ul>
+        </details>
       </li>
+
       <li>
-        <a>Testimonials</a>
+        <a>Case Studies</a>
       </li>
-      <li>
-        <a>Service</a>
-      </li>
-      <li>
-        <a>Service</a>
-      </li>
-      <li>
-        <a>Contact Us</a>
+      <li tabIndex={0}>
+        <details>
+          <summary>Price</summary>
+          <ul className="p-1 w-56">
+            <li>
+              <NavLink>Google Ads </NavLink>
+            </li>
+            <li>
+              <NavLink>Meta Ads </NavLink>
+            </li>
+            <li>
+              <NavLink>Google Analytics </NavLink>
+            </li>
+
+            <li>
+              <NavLink>Pixel & Conversion API</NavLink>
+            </li>
+            <li>
+              <NavLink>ServerSide Tracking</NavLink>
+            </li>
+          </ul>
+        </details>
       </li>
       <li>
         <NavLink to={`about`}>About</NavLink>
+      </li>
+      <li>
+        <a>Contact</a>
       </li>
       <li>
         <a>|</a>
@@ -75,9 +131,7 @@ const NavBar = () => {
           <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-lg">
-            {nav}
-          </ul>
+          <ul className="menu menu-horizontal px-1 text-lg">{nav}</ul>
         </div>
         <div className="navbar-end">
           <a className="btn">Button</a>
