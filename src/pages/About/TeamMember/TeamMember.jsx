@@ -1,12 +1,12 @@
-import { useState } from "react";
+
 import member1 from "../../../assets/AboutMySelf/AboutMy.jpg";
 import member2 from "../../../assets/AboutMySelf/AboutMy.png";
 import member3 from "../../../assets/AboutMySelf/homeImage.jpg";
-import { FaArrowRightLong } from "react-icons/fa6";
-import './TeamMember.css'
+import "./TeamMember.css";
+import TeamMemberModal from "./TeamMemberModal";
 
 const TeamMember = () => {
-  const [isHovered, setHovered] = useState(false);
+
   const allMember = [
     {
       id: 1,
@@ -55,49 +55,25 @@ const TeamMember = () => {
 
   return (
     <div className="container mx-auto mt-48">
-        <div>
-            <h1 className="text-6xl font-bold mb-28 ">Meet The Minds Behind All These <br /> Amazing Works</h1>
-        </div>
+      <div>
+        <h1 className="text-6xl font-bold mb-28 ">
+          Meet The Minds Behind All These <br /> Amazing Works
+        </h1>
+      </div>
       <div className="flex gap-10 justify-around container mx-auto">
-        {allMember.map((singleMember) => (
-          <>
-            <div className="w-1/4" key={singleMember.id}>
-              {/* <img
-                className="h-72 w-64 object-cover mx-auto"
-                src={singleMember.image}
-                alt={singleMember.name}
-              /> */}
-              <div
-      className="zoomable-image"
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-    >
-      <img className="h-72 w-64 object-cover mx-auto" src={isHovered ? singleMember.image :  singleMember.image} alt={singleMember.image} />
-    </div>
-              <div>
-                <h1 className="text-center mt-5 text-2xl font-bold">
-                  {singleMember.name}
-                </h1>
-                <p className="text-center mt-2 font-semibold text-violet-700">
-                  {singleMember.designation}
-                </p>
-                <p className="text-center mt-3">
-                  {singleMember.info.length > 50
-                    ? singleMember.info.slice(0, 100)
-                    : singleMember.info}
-                  ...
-                </p>
-                <div className="text-center mt-5">
-                  <button className="text-xl text-orange-500 hover:text-2xl">
-                    <FaArrowRightLong></FaArrowRightLong>
-                  </button>
-                </div>
-              </div>
-            </div>
-            ;
-          </>
+        {allMember.map((singleMember) => ( 
+        <TeamMemberModal 
+        id={singleMember.id}
+        key={singleMember.id} 
+        image = {singleMember.image} 
+        imageName= {singleMember.name} 
+        name={singleMember.name} 
+        designation={singleMember.designation} 
+        info={singleMember.info} />
+          
         ))}
       </div>
+      
     </div>
   );
 };
