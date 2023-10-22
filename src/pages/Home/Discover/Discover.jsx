@@ -21,10 +21,10 @@ const Discover = () => {
                         <h1 className='text-xl font-bold mt-5'>Mitchells Solicitors is a leading law firm with offices in Brisbane City, Moorooka, Aspley, and Sunshine Coast.</h1>
                     </div>
                     <div className='w-2/3 pl-20 '>
-                        <Link to={`https://www.youtube.com/watch?v=--tMDkLxSZ0&ab_channel=JamirKhan`}><img className='h-96 ml-auto' src={discover2} alt="" /></Link>
+                        <Link to={`https://www.youtube.com/watch?v=--tMDkLxSZ0&ab_channel=JamirKhan`}><img className='h-96 ml-auto border-4 border-red-400' src={discover2} alt="" /></Link>
                     </div>
                 </div>
-                <div className='mt-20'>
+                {/* <div className='mt-20'>
                     <p className='font-semibold'>More Videos</p>
                     <div className="divider "></div>
                     <div className='flex gap-6 items-center justify-between'>
@@ -41,7 +41,7 @@ const Discover = () => {
                         <Link to={`https://www.youtube.com/watch?v=--tMDkLxSZ0&ab_channel=JamirKhan`}><img className='h-52 mx-auto' src={discover2} alt="" /></Link>
                     </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
