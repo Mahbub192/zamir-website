@@ -1,9 +1,12 @@
+import { useState } from "react";
 import member1 from "../../../assets/AboutMySelf/AboutMy.jpg";
 import member2 from "../../../assets/AboutMySelf/AboutMy.png";
 import member3 from "../../../assets/AboutMySelf/homeImage.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
+import './TeamMember.css'
 
 const TeamMember = () => {
+  const [isHovered, setHovered] = useState(false);
   const allMember = [
     {
       id: 1,
@@ -59,11 +62,18 @@ const TeamMember = () => {
         {allMember.map((singleMember) => (
           <>
             <div className="w-1/4" key={singleMember.id}>
-              <img
+              {/* <img
                 className="h-72 w-64 object-cover mx-auto"
                 src={singleMember.image}
                 alt={singleMember.name}
-              />
+              /> */}
+              <div
+      className="zoomable-image"
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <img className="h-72 w-64 object-cover mx-auto" src={isHovered ? singleMember.image :  singleMember.image} alt={singleMember.image} />
+    </div>
               <div>
                 <h1 className="text-center mt-5 text-2xl font-bold">
                   {singleMember.name}
