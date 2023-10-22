@@ -1,14 +1,14 @@
 import AboutBanner from "./AboutBanner";
 import AboutUsInfo from "./AboutUsInfo";
-import Partnership from "./Partnership";
+import TeamMember from "./TeamMember/TeamMember";
 
 
 const About = () => {
     return (
         <div>
             <AboutBanner />
-            <Partnership />
             <AboutUsInfo />
+            <TeamMember />
         </div>
     );
 };
