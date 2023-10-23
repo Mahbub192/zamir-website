@@ -8,7 +8,9 @@ const NavBar = () => {
       </li>
       <li tabIndex={0}>
         <details>
-          <summary>Service</summary>
+          <summary>
+            <NavLink to={`/ourService`}>Service</NavLink>
+          </summary>
           <ul className="p-1 w-56">
             <li>
               <NavLink>Google Ads </NavLink>
