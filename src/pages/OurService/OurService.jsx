@@ -1,4 +1,5 @@
-import company from '../../assets/OurService/company.png'
+
+import AmazingCompanies from './AmazingCompanies/AmazingCompanies';
 import DigitalDynamo from './DigitalDynamo/DigitalDynamo';
 import DigitalMarketingServices from './DigitalMarketingServices/DigitalMarketingServices';
 
@@ -22,10 +23,7 @@ const OurService = () => {
           </p>
         </div>
 
-        <div>
-            <h1 className="mt-20 text-4xl font-bold">We’ve Had The Privilege Of Working With Amazing Companies.</h1>
-            <img className='mt-10 mx-auto w-full' src={company} alt="" />
-        </div>
+        <AmazingCompanies />
         <DigitalMarketingServices />
         <DigitalDynamo />
       </div>

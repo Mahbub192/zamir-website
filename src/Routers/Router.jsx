@@ -5,6 +5,7 @@ import Portfolio from "../pages/Portfolio/GoogleSearchAd/Portfolio";
 import FacebookProtfolio from "../pages/Portfolio/FacebookAdd/FacebookProtfolio";
 import About from "../pages/About/About";
 import OurService from "../pages/OurService/OurService";
+import Testimonials from "../pages/Testimonials/Testimonials";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: 'ourService',
         element: <OurService />
+      },
+      {
+        path: 'testimonials',
+        element: <Testimonials />
       },
     ],
   },

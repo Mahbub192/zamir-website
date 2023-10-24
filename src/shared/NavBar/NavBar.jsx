@@ -49,7 +49,9 @@ const NavBar = () => {
       </li>
       <li tabIndex={0}>
         <details>
-          <summary>Testimonials</summary>
+          <summary>
+            <NavLink to={`/testimonials`}>Testimonials</NavLink>
+          </summary>
           <ul className="p-1 w-56">
             <li>
               <NavLink>Video Testimonials</NavLink>
