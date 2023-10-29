@@ -3,6 +3,7 @@ import googleAnalytic from "../../../assets/Price/GoogleAnalytics/googleAnalytic
 import GoogleAnalyticsTracking from "./GoogleAnalyticsTracking";
 import { GoCheckCircleFill } from "react-icons/go";
 import GoogleAnalyticsServices from "./GoogleAnalyticsServices";
+import MyPrice from "./MyPrice";
 
 
 const GoogleAnalytics = () => {
@@ -44,6 +45,7 @@ const GoogleAnalytics = () => {
       </div>
       <GoogleAnalyticsTracking/>
       <GoogleAnalyticsServices />
+      <MyPrice />
     </div>
   );
 };
