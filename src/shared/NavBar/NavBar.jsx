@@ -77,7 +77,7 @@ const NavBar = () => {
               <NavLink>Meta Ads </NavLink>
             </li>
             <li>
-              <NavLink>Google Analytics </NavLink>
+              <NavLink to={`googleAnalytics`}>Google Analytics </NavLink>
             </li>
 
             <li>
