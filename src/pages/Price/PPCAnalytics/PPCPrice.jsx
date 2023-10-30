@@ -1,6 +1,6 @@
 import service1 from "../../../assets/OurService/service1.png";
 
-const MyPrice = () => {
+const PPCPrice = () => {
   return (
     <div className="mt-10 container mx-auto">
       <div>
@@ -18,17 +18,15 @@ const MyPrice = () => {
           <h1 className="mt-3">
             <span className="text-xl font-bold">Basic</span>{" "}
             <span className="text-2xl font-bold text-orange-500 ">
-              $99(7days)
+            $2,000-$3,000
             </span>
           </h1>
           <ul className="list-disc mt-6 leading-loose pl-5 text-lg">
-            <li>Gads Setup</li>
-            <li>Keyword Research</li>
-            <li>Multiple Ads Copy</li>
-            <li>Conversion Setup</li>
-            <li>Sales Funnel</li>
-            <li>Ads Optimizaion</li>
-            <li>Negetive Keyword</li>
+            <li>Basic Audit</li>
+            <li>Basic Strategy</li>
+            <li>Basic Fixes</li>
+            <li>Basic guide for SEO</li>
+            <li>Good for: smaller sites, site owners who are comfortable doing their own development work, gaining small wins in the short term and a few bigger wins in the long term</li>
           </ul>
           <div className="mt-10">
             <button className="text-xl font-medium border-2 px-4 py-1 bg-blue-400 rounded-xl text-white hover:bg-blue-500">
@@ -44,17 +42,15 @@ const MyPrice = () => {
           <h1 className="mt-3">
             <span className="text-xl font-bold">Standard</span>{" "}
             <span className="text-2xl font-bold text-orange-500 ">
-              $99(7days)
+            $3,100-$5,000
             </span>
           </h1>
           <ul className="list-disc mt-6 leading-loose pl-5 text-lg">
-            <li>Ads Setup</li>
-            <li>Audience Create</li>
-            <li>Sales Funnel</li>
-            <li>Data Driven Decision</li>
-            <li>Pixel & CAPI Setup</li>
-            <li>Ads Optimizaion</li>
-            <li>A/B Testing</li>
+            <li>Advanced Audit</li>
+            <li>Advanced Strategy</li>
+            <li>Advanced Fixes</li>
+            <li>One guide & a video for SEO</li>
+            <li>Good for: small and medium sites, site owners who want to do their own development or need outside help, gaining small wins in the short term, developing a long-term SEO strategy</li>
           </ul>
           <div className="mt-10">
             <button className="text-xl font-medium border-2 px-4 py-1 bg-blue-400 rounded-xl text-white hover:bg-blue-500">
@@ -70,17 +66,15 @@ const MyPrice = () => {
           <h1 className="mt-3">
             <span className="text-xl font-bold">Premium</span>{" "}
             <span className="text-2xl font-bold text-orange-500 ">
-              $99(7days)
+            $5100-$10,000
             </span>
           </h1>
           <ul className="list-disc mt-6 leading-loose pl-5 text-lg">
-            <li>Ads Setup</li>
-            <li>Audience Create</li>
-            <li>Sales Funnel</li>
-            <li>Data Driven Decision</li>
-            <li>Pixel & CAPI Setup</li>
-            <li>Ads Optimizaion</li>
-            <li>A/B Testing</li>
+            <li>Robust Audit</li>
+            <li>Robust Strategy</li>
+            <li>Robust Fixes</li>
+            <li>Multiple guides & videos for SEO</li>
+            <li>Good for: small, medium and large sites, site owners who need help with development work, gaining robust gains in rankings more quickly, building for long-term success</li>
           </ul>
           <div className="mt-10">
             <button className="text-xl font-medium border-2 px-4 py-1 bg-blue-400 rounded-xl text-white hover:bg-blue-500">
@@ -93,4 +87,4 @@ const MyPrice = () => {
   );
 };
 
-export default MyPrice;
+export default PPCPrice;

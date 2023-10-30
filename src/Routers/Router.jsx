@@ -7,6 +7,7 @@ import About from "../pages/About/About";
 import OurService from "../pages/OurService/OurService";
 import Testimonials from "../pages/Testimonials/Testimonials";
 import GoogleAnalytics from "../pages/Price/GoogleAnalytics/GoogleAnalytics";
+import PPCAnalytics from "../pages/Price/PPCAnalytics/PPCAnalytics";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: 'googleAnalytics',
         element: <GoogleAnalytics />
+      },
+      {
+        path: 'ppcAnalytics',
+        element: <PPCAnalytics />
       },
     ],
   },

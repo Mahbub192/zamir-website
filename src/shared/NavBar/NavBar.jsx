@@ -79,7 +79,9 @@ const NavBar = () => {
             <li>
               <NavLink to={`googleAnalytics`}>Google Analytics </NavLink>
             </li>
-
+            <li>
+              <NavLink to={`ppcAnalytics`}>PPC Analytics</NavLink>
+            </li>
             <li>
               <NavLink>Pixel & Conversion API</NavLink>
             </li>
