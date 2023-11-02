@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import homeImage from "../../../assets/AboutMySelf/AboutMy.jpg";
 import { useEffect } from "react";
 import Aos from "aos";
@@ -25,24 +23,16 @@ const AboutMySelf = () => {
         <div data-aos="zoom-in-up"  data-aos-duration="1500" className=" bg-white shadow-2xl p-10 pt-2 rounded-2xl absolute -top-80">
           <h1 className="text-2xl font-bold flex items-center"> <span className="text-orange-400 pr-3 text-3xl"><FaHandsClapping></FaHandsClapping></span>HELLO!</h1>
           <h1 className="text-xl font-bold my-4 leading-relaxed tracking-wide">
-            THIS IS <Link className="text-blue-500 underline font-serif">JAMIR</Link>, THE FOUNDER AND CEO  AT &quot;Marketing Hawk&quot;{" "}
+            THIS IS JAMIR THE FOUNDER AND CEO  AT &quot;Marketing Hawk&quot;{" "}
           </h1>
           <p className="leading-relaxed mb-2 text-xl font-serif">
-            Marketing Hawk has worked as a Google Adwords manager and in Web
-            Analytics [ Google Analytics 4 ] for a data-driven digital marketing
-            agency in Bangladesh for a long time with the
+          The &quot;Marketing Hawk&quot; has worked as an Advertising manager, SEO, Web Analytics, and full-stack Web Development service as a data-driven Digital Marketing agency in Bangladesh for a long time with an Experienced Team.
           </p>
-          <p className="underline text-blue-500 text-xl">Expertise Team.</p>
 
           <div>
             <ul className="list-disc px-5 my-6">
               <li className="leading-relaxed text-lg">
-                It’s worked with worldwide clients, from young start-up
-                companies to brands in a variety of industries. Our core
-                strength is generating leads for local businesses. I’ll confirm
-                your generated leads, excellent CTR, upper conversion rate,
-                lower price, and progressing ROI. You Can Trust Your Budget With
-                &apos;Marketing Hawk&apos;
+              It’s worked with worldwide clients, from young start-up companies to brands in a variety of industries. Our long-term experience can transform a young start-up company into a brand that works with clients worldwide. Our core task is generating leads for local businesses. We will confirm your generating leads, excellent CTR, upper conversion rate, lower price, and progression of ROI and ROAS.
               </li>
             </ul>
             <h3 className="text-lg leading-relaxed font-serif">
@@ -57,6 +47,7 @@ const AboutMySelf = () => {
               <li>
               As a data-driven digital marketer, we have the skills and experience needed to help businesses overcome these challenges and succeed online.
               </li>
+              <li>Let&apos;s see exactly what we&apos;re doing and how much we&apos;re changing your business!</li>
             </ul>
             <div className=" mt-5 py-1 ">
               <button className="text-white bg-gradient-to-r from-cyan-600 to-blue-600 font-bold text-lg px-5 py-2 rounded-lg">
