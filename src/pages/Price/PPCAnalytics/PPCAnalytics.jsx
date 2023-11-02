@@ -4,7 +4,6 @@ import { GoCheckCircleFill } from "react-icons/go";
 import PPCAnalyticsTracking from "./PPCAnalyticsTracking";
 import PPCAnalyticsServices from "./PPCAnalyticsServices";
 import PPCPrice from "./PPCPrice";
-import MyInfo from "../../Home/MyInfo/MyInfo";
 import AboutFrom from "../../Portfolio/GoogleSearchAd/AboutFrom";
 
 

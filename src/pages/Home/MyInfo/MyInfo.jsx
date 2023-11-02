@@ -24,7 +24,7 @@ const MyInfo = () => {
             create a custom Digital Marketing plan to help you achieve them.
           </p>
           <div className="bg-gray-200 shadow-2xl rounded-lg mt-8 mr-5">
-            <form className="w-5/6 p-10" onSubmit={handleSubmit(onSubmit)}>
+            <form className="px-20 py-10" onSubmit={handleSubmit(onSubmit)}>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Full Name</span>
@@ -55,6 +55,20 @@ const MyInfo = () => {
               </div>
               <div className="form-control">
                 <label className="label">
+                  <span className="label-text">Email</span>
+                </label>
+                <input
+                  type="email"
+                  {...register("email", { required: true })}
+                  placeholder="email@gmail.com"
+                  className="input input-bordered"
+                />
+                {errors.email && (
+                  <span className="text-red-600">Email is required</span>
+                )}
+              </div>
+              <div className="form-control">
+                <label className="label">
                   <span className="label-text">Website URL </span>
                 </label>
                 <input
@@ -67,19 +81,16 @@ const MyInfo = () => {
                   <span className="text-red-600">Website URL is required</span>
                 )}
               </div>
-
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Email</span>
+                  <span className="label-text">Service Required</span>
                 </label>
-                <input
-                  type="email"
-                  {...register("email", { required: true })}
-                  placeholder="email@gmail.com"
-                  className="input input-bordered"
-                />
-                {errors.email && (
-                  <span className="text-red-600">Email is required</span>
+                <select {...register("service")} className="input input-bordered">
+                <option value="Ongoning Expert Management">Ongoning Expert Management</option>
+                  <option value="Deep One-Time Audit">Deep One-Time Audit</option>
+                </select>
+                {errors.service && (
+                  <span className="text-red-600">Service is required</span>
                 )}
               </div>
               <div className="form-control   mt-4">
@@ -93,7 +104,7 @@ const MyInfo = () => {
                   className="textarea textarea-bordered textarea-lg w-full "
                   type="text"
                   {...register("message", { required: true })}
-                  placeholder="Message"
+                  placeholder="Type your Message here"
                 ></textarea>
                 {errors.message && (
                   <span className="text-red-600">Message is required</span>
@@ -101,12 +112,14 @@ const MyInfo = () => {
               </div>
 
               <button
-                className={`mt-10 mx-auto border-2 px-10 py-2 text-lg md:text-xl font-bold bg-blue-500 hover:bg-blue-800 text-white `}
+                className={`w-full mt-10 mx-auto border-2 px-10 py-2 text-lg md:text-xl font-bold bg-blue-500 hover:bg-blue-800 text-white `}
                 type="submit"
               >
                 Submit
               </button>
+              <p className=" text-center py-4">Please do your very best to answer the questions, or if you don’t know or can’t answer the questions, you are welcome to leave them blank.</p>
             </form>
+            
           </div>
         </div>
 
