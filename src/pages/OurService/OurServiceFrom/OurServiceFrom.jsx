@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import MyImage from "../../../assets/AboutMySelf/AboutMy.png";
 
-const MyInfo = () => {
+const OurServiceFrom = () => {
   const {
     register,
     handleSubmit,
@@ -67,32 +67,6 @@ const MyInfo = () => {
                   <span className="text-red-600">Email is required</span>
                 )}
               </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Website URL </span>
-                </label>
-                <input
-                  type="url"
-                  {...register("url", { required: true })}
-                  placeholder="Website URL "
-                  className="input input-bordered"
-                />
-                {errors.url && (
-                  <span className="text-red-600">Website URL is required</span>
-                )}
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Service Required</span>
-                </label>
-                <select {...register("service")} className="input input-bordered">
-                <option value="Ongoning Expert Management">Ongoning Expert Management</option>
-                  <option value="Deep One-Time Audit">Deep One-Time Audit</option>
-                </select>
-                {errors.service && (
-                  <span className="text-red-600">Service is required</span>
-                )}
-              </div>
               <div className="form-control   mt-4">
                 <label className="label ">
                   <span className="label-text flex items-center">
@@ -150,4 +124,4 @@ const MyInfo = () => {
   );
 };
 
-export default MyInfo;
+export default OurServiceFrom;
