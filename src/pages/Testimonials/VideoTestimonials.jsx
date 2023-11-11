@@ -10,8 +10,7 @@ const VideoTestimonials = () => {
         Hear What Our Clients Have To Say
       </h1>
       <p className="w-2/5 text-xl mb-10">
-        When you partner with WebnWell, we take care of the heavy lifting, so
-        you can enjoy more website traffic, leads, and revenue.
+      When you partner with Marketing Hawk, we take care of the heavy lifting, so you can expect to see a significant increase in website traffic, leads, and revenue.&quot;
       </p>
 
       <div>

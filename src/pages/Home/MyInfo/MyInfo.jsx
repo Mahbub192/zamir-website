@@ -110,7 +110,9 @@ const MyInfo = () => {
                   <span className="text-red-600">Message is required</span>
                 )}
               </div>
-              <p className="mt-5 text-center text-gray-600">Your information is 100% Secure. Submit er upore ata likhbi. </p>
+              <div className="mt-5">
+                <p className="text-center text-gray-500">Your information is 100% secure.</p>
+              </div>
 
               <button
                 className={`w-full mt-5 mx-auto border-2 px-10 py-2 text-lg md:text-xl font-bold bg-blue-500 hover:bg-blue-800 text-white `}
