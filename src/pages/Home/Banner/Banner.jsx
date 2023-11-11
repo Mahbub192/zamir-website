@@ -1,4 +1,4 @@
-import { FaCalendarDays, FaFaceSmileBeam, FaRegLightbulb } from "react-icons/fa6";
+import { FaCalendarDays, FaChartLine, FaFaceSmileBeam, FaRegLightbulb } from "react-icons/fa6";
 import { GiWorld } from "react-icons/gi";
 
 
@@ -19,7 +19,7 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <div className="container mx-auto grid grid-cols-4 border-2 py-6 px-5 mt-9">
+      <div className="container mx-auto grid grid-cols-5 border-2 py-6 px-5 mt-9">
         <div className="flex items-center gap-3">
           <p className="text-3xl text-orange-400"><FaCalendarDays /></p>
           <div>
@@ -46,6 +46,13 @@ const Banner = () => {
           <div>
             <h1 className="text-2xl font-semibold">140</h1>
             <p>Total Client</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-3">
+          <p className="text-3xl text-orange-400"><FaChartLine /></p>
+          <div>
+            <h1 className="text-2xl font-semibold">94%</h1>
+            <p>Satisfaction Rate</p>
           </div>
         </div>
       </div>

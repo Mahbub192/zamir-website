@@ -1,10 +1,18 @@
-import service1 from "../../../assets/OurService/service1.png";
-import service2 from "../../../assets/OurService/service2.png";
-import service3 from "../../../assets/OurService/service3.png";
-import service4 from "../../../assets/OurService/service4.png";
-import service5 from "../../../assets/OurService/service5.png";
-import service6 from "../../../assets/OurService/service6.png";
-import service7 from "../../../assets/OurService/service1.png";
+// import service1 from "../../../assets/OurService/service1.png";
+// import service2 from "../../../assets/OurService/service2.png";
+// import service3 from "../../../assets/OurService/service3.png";
+// import service4 from "../../../assets/OurService/service4.png";
+// import service5 from "../../../assets/OurService/service5.png";
+// import service6 from "../../../assets/OurService/service6.png";
+// import service7 from "../../../assets/OurService/service1.png";
+import service8 from "../../../assets/OurService/1.png";
+import service9 from "../../../assets/OurService/2.png";
+import service10 from "../../../assets/OurService/3.png";
+import service11 from "../../../assets/OurService/4.png";
+import service12 from "../../../assets/OurService/5.png";
+import service13 from "../../../assets/OurService/6.png";
+import service14 from "../../../assets/OurService/7.png";
+import service15 from "../../../assets/OurService/8.png";
 
 import 'aos/dist/aos.css'; // Import the AOS CSS
 import AOS from 'aos';
@@ -14,49 +22,68 @@ const DigitalMarketingServices = () => {
   const allService = [
     {
       id: 1,
-      image: service1,
-      position: "SEO",
-      info: "Optimization that improves your rankings & your branding.",
+      image: service8,
+      position: "Google Search Ads ",
+      info: "It’s a most powerful advertising platform in the World. Drive qualified traffic to your website and generate leads and sales. ",
       learnMore: "learnMore",
     },
     {
       id: 2,
-      image: service2,
-      position: "WordPress Design",
-      info: "Websites fully customized & developed with SEO in mind.",
+      image: service9,
+      position: "YouTube Ads",
+      info: "Reach the right audience with the right message, which matters most.",
       learnMore: "learnMore",
     },
     {
       id: 3,
-      image: service3,
-      position: "Content Creation",
-      info: "Content that boosts your SEO & brand collateral.",
+      image: service10,
+      position: "Google Display Ads",
+      info: "Increase engagement and brand recognition with a thoughtful display ad campaign.",
       learnMore: "learnMore",
     },
     {
       id: 4,
-      image: service4,
-      position: "Google Analytics",
-      info: "Track your digital marketing performance with ease.",
+      image: service11,
+      position: "Facebook Ads",
+      info: "The most powerful social media advertising platform Drive traffic to your website and generate leads.",
       learnMore: "learnMore",
     },
     {
       id: 5,
-      image: service5,
-      position: "Google Ads",
-      info: "Campaign management that works in tandem with your SEO strategy.",
+      position: "Google Analytics",
+      image: service13,
+      info: "Understand your customers better with Google Analytics. The power of data is at your fingertips. ",
+      learnMore: "learnMore",
     },
     {
       id: 6,
-      position: "Email Marketing",
-      image: service6,
-      info: "Email campaigns that are beautiful & work within a holistic marketing strategy.",
+      position: "GA4 Server Side Tracking",
+      image: service12,
+      info: "Server-side tracking for a more complete and accurate view of your customers. Get the power of data at your fingertips.",
+      learnMore: "learnMore",
     },
     {
       id: 7,
-      position: "Social Media",
-      image: service7,
-      info: "Increase engagement & brand recognition with thoughtful social media campaigns.",
+      position: "Pixel & Conversion API",
+      image: service8,
+      info: "Measure your conversions more accurately, even when cookies are blocked.",
+      learnMore: "learnMore",
+    }
+    ,
+    {
+      id: 8,
+      position: "SEO ",
+      image: service14,
+      info: "We are SEO Expert | Boost Website Ranking & Traffic 📈 | On-Page,Technical SEO",
+      learnMore: "learnMore",
+    }
+    ,
+    {
+      id: 9,
+      position: "Full Stack Development",
+      image: service15,
+      info: "The power to create complete digital solutions, from front-end to back-end, with SEO in mind",
+      learnMore: "learnMore",
     },
   ];
 
@@ -71,9 +98,8 @@ const DigitalMarketingServices = () => {
       <h1 className="text-5xl font-bold font-serif text-center mt-20">
         Digital Marketing Services
       </h1>
-      <p className="w-3/5 mx-auto text-center text-xl mt-10">
-        Services that work together to grow your online presence, increase leads
-        and conversions, and maximize digital marketing ROI.
+      <p className="w-4/5 mx-auto text-center text-xl mt-10">
+      Marketing Hawk is a full-stack Digital Marketing agency that helps businesses grow their online presence, increase leads and conversions, and maximize their ROI and ROAS.
       </p>
 
       <div className="grid grid-cols-3 gap-6 mt-24">
