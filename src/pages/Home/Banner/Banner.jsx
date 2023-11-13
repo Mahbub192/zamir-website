@@ -1,4 +1,4 @@
-import { FaCalendarDays, FaFaceSmileBeam, FaRegLightbulb } from "react-icons/fa6";
+import { FaArrowTrendUp, FaCalendarDays, FaFaceSmileBeam, FaRegLightbulb } from "react-icons/fa6";
 import { GiWorld } from "react-icons/gi";
 
 
@@ -19,7 +19,7 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <div className="container mx-auto grid grid-cols-4 border-2 py-6 px-5 mt-9">
+      <div className="container mx-auto grid grid-cols-5 border-2 py-6 px-5 mt-9">
         <div className="flex items-center gap-3">
           <p className="text-3xl text-orange-400"><FaCalendarDays /></p>
           <div>
@@ -27,25 +27,32 @@ const Banner = () => {
             <p>Working Hours</p>
           </div>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 justify-center">
           <p className="text-3xl text-orange-400"><GiWorld /></p>
           <div>
             <h1 className="text-2xl font-semibold">120</h1>
             <p>Total Project</p>
           </div>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 justify-center">
           <p className="text-3xl text-orange-400"><FaRegLightbulb /></p>
           <div>
             <h1 className="text-2xl font-semibold">4</h1>
             <p>Years Journey</p>
           </div>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 justify-center">
           <p className="text-3xl text-orange-400"><FaFaceSmileBeam /></p>
           <div>
             <h1 className="text-2xl font-semibold">140</h1>
             <p>Total Client</p>
+          </div>
+        </div>
+        <div className="flex items-center justify-end gap-3">
+          <p className="text-3xl text-orange-400"><FaArrowTrendUp /></p>
+          <div>
+            <h1 className="text-2xl font-semibold">94%</h1>
+            <p>Satisfaction Rate</p>
           </div>
         </div>
       </div>

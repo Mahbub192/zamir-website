@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import discover1 from '../../../assets/Discover/discover1.jpeg'
-import discover2 from '../../../assets/Discover/discover2.jpeg'
+// import discover2 from '../../../assets/Discover/discover2.jpeg'
+import discover3 from '../../../assets/Discover/discover3.jpg'
 import { FaYoutube } from 'react-icons/fa6';
 
 const Discover = () => {
@@ -20,9 +21,9 @@ const Discover = () => {
                     <div className='w-2/3 pl-20 relative'>
                         <Link to={`https://www.youtube.com/watch?v=--tMDkLxSZ0&ab_channel=JamirKhan`}>
                             
-                            <h1 className='text-6xl top-48 left-[550px] bg-gray-300 text-red-600 shadow-2xl border-2 px-5 absolute'> <FaYoutube /></h1>                            
+                            <h1 className='text-6xl top-48 left-[550px] text-red-600 absolute'> <FaYoutube /></h1>                            
                         </Link>
-                        <img className='h-96 ml-auto border-4 border-red-400' src={discover2} alt="" />
+                        <img className='h-96 ml-auto border-4 ' src={discover3} alt="" />
                     </div>
                 </div>
                 {/* <div className='mt-20'>

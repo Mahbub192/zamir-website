@@ -1,5 +1,7 @@
 import WorkTogether1 from "../../../assets/WorkTogether/WorkTogether1.png";
 import WorkTogether2 from "../../../assets/WorkTogether/WorkTogether2.jpg";
+import WorkTogether3 from "../../../assets/WorkTogether/WorkTogether12.jpeg";
+import WorkTogether4 from "../../../assets/WorkTogether/WorkTogether13.jpeg";
 
 const WorkTogether = () => {
   return (
@@ -23,7 +25,7 @@ const WorkTogether = () => {
           </p>
         </div>
         <div className="bg-white shadow-2xl rounded-xl w-1/2 ml-10 pb-8">
-          <img className="h-72 mx-auto" src={WorkTogether2} alt="" />
+          <img className="h-72 mx-auto" src={WorkTogether3} alt="" />
           <h1 className="mt-8 text-2xl font-bold text-center">Strongly One –Time Setup</h1>
           <p className="text-lg text-center mt-3 w-2/3 mx-auto">
           We’ll Build a high-performing machine that will help you achieve your goals. 
@@ -38,7 +40,7 @@ const WorkTogether = () => {
           <button className="bg-blue-500 px-10 py-3 rounded-xl text-white uppercase text-lg font-semibold">Get a Project! Contact Us</button>
         </div>
         <div>
-          <img className="h-96 rounded-2xl " src={WorkTogether2} alt="" />
+          <img className="h-96 rounded-2xl " src={WorkTogether4} alt="" />
         </div>
       </div>
     </div>

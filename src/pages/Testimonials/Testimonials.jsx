@@ -1,6 +1,6 @@
 import MyInfo from "../Home/MyInfo/MyInfo";
 import AmazingCompanies from "../OurService/AmazingCompanies/AmazingCompanies";
-import AboutFrom from "../Portfolio/GoogleSearchAd/AboutFrom";
+// import AboutFrom from "../Portfolio/GoogleSearchAd/AboutFrom";
 import ChooseUs from "../Portfolio/GoogleSearchAd/ChooseUs";
 import ClientSay from "./ClientSay/ClientSay";
 import FrequentlyAskedTestimonials from "./FrequentlyAskedTestimonials/FrequentlyAskedTestimonials";

@@ -2,10 +2,10 @@ const FrequentlyAskedTestimonials = () => {
     return (
       <div className="mt-28">
         <div>
-          <h1 className="text-5xl font-semibold text-center">
+          <h1 className="text-6xl font-bold text-center">
             Frequently Asked Questions
           </h1>
-          <p className="text-lg font-serif text-center mt-10">
+          <p className="w-1/2 mx-auto text-xl font-serif text-center mt-10">
           Here are some commonly asked questions from our clients so you can discover the solutions you need more quickly.
           </p>
   
