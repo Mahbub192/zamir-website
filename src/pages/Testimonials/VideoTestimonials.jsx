@@ -34,6 +34,16 @@ const VideoTestimonials = () => {
             <p className="text-2xl font-medium text-center pb-3">Google Ads</p>
           </div>
         </div>
+        <div className="flex gap-10">
+          <div className="shadow-2xl rounded-2xl">
+            <img className="p-10" src={discover2} alt="" />
+            <p className="text-2xl font-medium text-center pb-3">Google Ads</p>
+          </div>
+          <div className="shadow-2xl rounded-2xl">
+            <img className="p-10" src={discover2} alt="" />
+            <p className="text-2xl font-medium text-center pb-3">Google Ads</p>
+          </div>
+        </div>
       </div>
     </div>
   );

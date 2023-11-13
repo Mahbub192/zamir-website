@@ -1,5 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import image1 from "../../../assets/ClientSay/image1.jpeg";
+// import image1 from "../../../assets/ClientSay/image1.jpeg";
+import image6 from "../../../assets/ClientSay/image6.jpeg";
+import image7 from "../../../assets/ClientSay/image7.jpeg";
 import image2 from "../../../assets/ClientSay/image2.jpeg";
 import image3 from "../../../assets/ClientSay/image3.jpeg";
 import { FaLinkedin, FaQuoteLeft } from "react-icons/fa6";
@@ -13,7 +15,7 @@ const ClientSay = () => {
   return (
     <div className="container mx-auto">
         <div>
-            <h1 className="text-center text-4xl font-semibold py-10">Client say</h1>
+            <h1 className="text-center text-5xl font-bold py-10 underline text-gray-600 mb-5"> Clients Amazing Review</h1>
         </div>
       <Swiper
         slidesPerView={3}
@@ -95,7 +97,7 @@ const ClientSay = () => {
               <div className="w-32 h-32 mt-10 ">
                 <img
                   className="object-cover h-full w-full rounded-full"
-                  src={image1}
+                  src={image6}
                   alt=""
                 />
               </div>
@@ -135,6 +137,36 @@ const ClientSay = () => {
               <div>
                 <h3 className="text-xl">Jerry Keifer</h3>
                 <h2 className="text-3xl">United State</h2>
+              </div>
+              <div>
+                <p className="text-6xl text-blue-500">
+                  <FaLinkedin />
+                </p>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="p-5 bg-white shadow-2xl">
+            <div>
+              <p className="text-6xl text-orange-500">
+                <FaQuoteLeft />
+              </p>
+            </div>
+            <p className="text-lg  text-justify">
+            Amazing results We are very happy with this Google Adwords campaign. Basically, we had a very successful campaign with Jamir, which broke all our records in the previous month, and as a result, we are now looking to top this Google AdWords campaign with another center in the capital, London. Without a doubt, Jamir and Fatima have allowed us to grow immensely. We will work with their agency again in the future to target more cities! Regards, Doreen R. Levasseur
+            </p>
+            <div className="flex items-center gap-6">
+              <div className="w-32 h-32 mt-10 ">
+                <img
+                  className="object-cover h-full w-full rounded-full"
+                  src={image7}
+                  alt=""
+                />
+              </div>
+              <div>
+                <h3 className="text-xl">Director</h3>
+                <h2 className="text-3xl">Doreen R. Levasseur</h2>
               </div>
               <div>
                 <p className="text-6xl text-blue-500">
