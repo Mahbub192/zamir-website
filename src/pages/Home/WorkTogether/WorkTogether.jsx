@@ -1,7 +1,13 @@
 import WorkTogether1 from "../../../assets/WorkTogether/WorkTogether1.png";
+
 import WorkTogether2 from "../../../assets/WorkTogether/WorkTogether2.jpg";
 import WorkTogether3 from "../../../assets/WorkTogether/WorkTogether12.jpeg";
 import WorkTogether4 from "../../../assets/WorkTogether/WorkTogether13.jpeg";
+
+// import WorkTogether2 from "../../../assets/WorkTogether/WorkTogether2.jpg";
+//import WorkTogether3 from "../../../assets/WorkTogether/WorkTogether3.webp";
+//import WorkTogether4 from "../../../assets/WorkTogether/WorkTogether4.webp";
+
 
 const WorkTogether = () => {
   return (
@@ -37,7 +43,7 @@ const WorkTogether = () => {
         <div className="pl-10">
           <h1 className="text-4xl font-bold font-serif ">Ongoing Expert Management & Support</h1>
           <p className="text-xl my-5 w-2/3">We&apos;ll handle all aspects of your business, from strategy to execution, and report directly to you.</p>
-          <button className="bg-blue-500 px-10 py-3 rounded-xl text-white uppercase text-lg font-semibold">Get a Project! Contact Us</button>
+          <button className="bg-blue-500 px-10 py-3 rounded-xl text-white uppercase text-lg font-semibold">Book a Call</button>
         </div>
         <div>
           <img className="h-96 rounded-2xl " src={WorkTogether4} alt="" />

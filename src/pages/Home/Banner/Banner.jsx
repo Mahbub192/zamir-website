@@ -1,4 +1,6 @@
+
 import { FaArrowTrendUp, FaCalendarDays, FaFaceSmileBeam, FaRegLightbulb } from "react-icons/fa6";
+
 import { GiWorld } from "react-icons/gi";
 
 
@@ -48,8 +50,10 @@ const Banner = () => {
             <p>Total Client</p>
           </div>
         </div>
+
         <div className="flex items-center justify-end gap-3">
           <p className="text-3xl text-orange-400"><FaArrowTrendUp /></p>
+
           <div>
             <h1 className="text-2xl font-semibold">94%</h1>
             <p>Satisfaction Rate</p>
