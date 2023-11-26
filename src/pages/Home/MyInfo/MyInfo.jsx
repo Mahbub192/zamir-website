@@ -142,7 +142,8 @@ const MyInfo = () => {
               <li>8x Google Ads Certified.</li>
               <li>10x Meta Blueprint Certified.</li>
               <li>Conversion Rate Optimization Professional.</li>
-              <li>Google Analytics & Google Tag Manager Certified.</li>
+              <li>Google Analytics & Google Tag Manager Certified</li>
+              <li>A professional communicator [in English]</li>
               <li>4 Years of Job Experience as a Google Adwords Manager.</li>
             </ul>
           </div>
