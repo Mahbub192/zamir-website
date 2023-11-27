@@ -13,6 +13,8 @@ import service12 from "../../../assets/OurService/5.png";
 import service13 from "../../../assets/OurService/6.png";
 import service14 from "../../../assets/OurService/7.png";
 import service15 from "../../../assets/OurService/8.png";
+import service16 from "../../../assets/OurService/d.png";
+import service17 from "../../../assets/OurService/d1.png";
 
 import 'aos/dist/aos.css'; // Import the AOS CSS
 import AOS from 'aos';
@@ -32,22 +34,23 @@ const DigitalMarketingServices = () => {
       image: service9,
       position: "YouTube Ads",
       info: "Reach the right audience with the right message, which matters most.",
-      learnMore: "learnMore",
+      // learnMore: "learnMore",
     },
     {
       id: 3,
       image: service10,
       position: "Google Display Ads",
       info: "Increase engagement and brand recognition with a thoughtful display ad campaign.",
-      learnMore: "learnMore",
+      // learnMore: "learnMore",
     },
     {
       id: 4,
-      image: service11,
-      position: "Facebook Ads",
-      info: "The most powerful social media advertising platform Drive traffic to your website and generate leads.",
+      position: "Google Adwords ",
+      image: service17,
+      info: "Google Ads is a powerful tool for businesses. Is't just a tool; it's an enabler of business growth.",
       learnMore: "learnMore",
     },
+    
     {
       id: 5,
       position: "Google Analytics",
@@ -57,15 +60,15 @@ const DigitalMarketingServices = () => {
     },
     {
       id: 6,
-      position: "GA4 Server Side Tracking",
-      image: service12,
-      info: "Server-side tracking for a more complete and accurate view of your customers. Get the power of data at your fingertips.",
+      image: service11,
+      position: "Facebook Ads",
+      info: "The most powerful social media advertising platform Drive traffic to your website and generate leads.",
       learnMore: "learnMore",
     },
     {
       id: 7,
       position: "Pixel & Conversion API",
-      image: service8,
+      image: service16,
       info: "Measure your conversions more accurately, even when cookies are blocked.",
       learnMore: "learnMore",
     }
@@ -75,7 +78,7 @@ const DigitalMarketingServices = () => {
       position: "SEO ",
       image: service14,
       info: "We are SEO Expert | Boost Website Ranking & Traffic 📈 | On-Page,Technical SEO",
-      learnMore: "learnMore",
+      
     }
     ,
     {
@@ -83,7 +86,7 @@ const DigitalMarketingServices = () => {
       position: "Full Stack Development",
       image: service15,
       info: "The power to create complete digital solutions, from front-end to back-end, with SEO in mind",
-      learnMore: "learnMore",
+      
     },
   ];
 
@@ -95,11 +98,11 @@ const DigitalMarketingServices = () => {
 
   return (
     <div className="">
-      <h1 className="text-5xl font-bold font-serif text-center mt-20">
+      <h1 className="text-6xl font-bold font-serif text-center mt-20">
         Digital Marketing Services
       </h1>
-      <p className="w-4/5 mx-auto text-center text-xl mt-10">
-      Marketing Hawk is a full-stack Digital Marketing agency that helps businesses grow their online presence, increase leads and conversions, and maximize their ROI and ROAS.
+      <p className="w-4/5 mx-auto text-center text-2xl mt-10">
+      Marketing Hawk is a full-stack Digital Marketing agency that helps businesses grow their online presence, increase leads and conversions, and maximize their ROI.
       </p>
 
       <div className="grid grid-cols-3 gap-6 mt-24">

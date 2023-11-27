@@ -115,6 +115,7 @@ const OurServiceFrom = () => {
               <li>10x Meta Blueprint Certified.</li>
               <li>Conversion Rate Optimization Professional.</li>
               <li>Google Analytics & Google Tag Manager Certified.</li>
+              <li>A Professional Communicator [in English]</li>
               <li>4 Years of Job Experience as a Google Adwords Manager.</li>
             </ul>
           </div>
