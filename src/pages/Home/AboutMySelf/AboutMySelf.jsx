@@ -3,7 +3,6 @@ import homeImage from "../../../assets/AboutMySelf/bal12.png";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { FaHandsClapping } from "react-icons/fa6";
 
 const AboutMySelf = () => {
   useEffect(() => {
@@ -43,7 +42,7 @@ const AboutMySelf = () => {
 
             <div>
               <h1 className="text-sky-500 text-3xl font-bold mt-5">We Help Business Owners Just Like You</h1>
-              <p className="mt-2 text-justify">At Marketing Hawk Agency, we take a holistic approach to Digital Marketing. We believe that the best results are achieved when all of your Digital Marketing channels are working together in concert. That's why we work with our clients to develop a comprehensive Digital Marketing strategy that is tailored to their specific needs and goals.</p>
+              <p className="mt-2 text-justify">At Marketing Hawk Agency, we take a holistic approach to Digital Marketing. We believe that the best results are achieved when all of your Digital Marketing channels are working together in concert. That&apos;s why we work with our clients to develop a comprehensive Digital Marketing strategy that is tailored to their specific needs and goals.</p>
               <p className="mt-3 text-justify">If you&apos;re looking for a full-stack Digital Marketing partner that can help you achieve your online marketing goals, then Marketing Hawk is the right choice for you. </p>
               <div className="mt-10">
                 <button className="text-white bg-gradient-to-r from-cyan-600 to-blue-600 font-bold text-lg px-5 py-2 rounded-lg">Get a Project! Contact Us </button>
