@@ -1,6 +1,5 @@
 import WorkTogether1 from "../../../assets/WorkTogether/WorkTogether1.png";
 
-import WorkTogether2 from "../../../assets/WorkTogether/WorkTogether2.jpg";
 import WorkTogether3 from "../../../assets/WorkTogether/WorkTogether12.jpeg";
 import WorkTogether4 from "../../../assets/WorkTogether/WorkTogether13.jpeg";
 
